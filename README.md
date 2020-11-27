@@ -28,3 +28,19 @@ Code character (4), name character (10), designation character(30), dob date, sa
 
 :Two tables employee and employedetails.empid attribute in employee  refer empid attribute in employee details table
 Other attributes in table are up to you.but must have empid in both table to make relationship between two
+
+
+#Task 4
+
+Create and insert values for the following tables department and instructor(with constarints)
+a.	Department table
+Code(primary key)
+Title 
+Dept_name(unique)
+Dept_id
+Salary(check –salary>2000)
+
+b.	Instructor table
+Name(not null)
+Code
+Id(default)
