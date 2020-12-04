@@ -44,3 +44,13 @@ b.	Instructor table
 Name(not null)
 Code
 Id(default)
+
+
+#Task 5
+
+Expt5:Practice of SQL TCL commands like Rollback, Commit, Savepoint
+Questions:
+a.	Create a table class. Fields are name and id
+b.	Insert values into the table
+c.	Display the table
+d.	Apply commit, save point and rollback commands
