@@ -1,0 +1,26 @@
+
+CREATE TABLE Class (
+	`id` INT PRIMARY KEY AUTO_INCREMENT,
+    `name` VARCHAR(50)
+);
+
+
+INSERT INTO Class (`name`) VALUES ("ALLMIGHT"), ("ENDEAVOR"), ("HAWKS");
+
+
+SELECT * FROM Class;
+
+START TRANSACTION;
+
+INSERT INTO Class (`name`) VALUES ("UA");
+ROLLBACK; 
+
+INSERT INTO Class (`name`) VALUES ("UA");
+COMMIT;
+
+START TRANSACTION;
+SAVEPOINT BeforeEvilEra;
+INSERT INTO Class (`name`) VALUES ("AIZAWAS");
+ROLLBACK TO BeforeEvilEra;
+
+COMMIT;
