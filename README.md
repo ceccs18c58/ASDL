@@ -54,3 +54,15 @@ a.	Create a table class. Fields are name and id
 b.	Insert values into the table
 c.	Display the table
 d.	Apply commit, save point and rollback commands
+
+
+#Task 6
+
+Expt6:Creation of Views and Assertions
+a.Create a table store. Fields are order no, code, item, quantity, price, discount, mrp
+b.Inset values into the table
+c.Display the table
+d. Create a view with item_name and quantity for the above table
+e.Write a query to check whether any changes made to present table is reflected in view.
+f. Write a query to delete a view
+
