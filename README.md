@@ -66,3 +66,16 @@ d. Create a view with item_name and quantity for the above table
 e.Write a query to check whether any changes made to present table is reflected in view.
 f. Write a query to delete a view
 
+
+#Task 7
+
+
+Expt7:Implementation of Build in functions in RDBMS
+
+a.	Create a table store. Fields are order no, code, item, quantity, price, discount, mrp
+b.	Insert values into the table
+c.	Display the table
+d.	Write an SQL query to display the reminder, if the amount of an each item in store is divided by 9.
+e.	Write SQL query to display the amount in store and its square
+f.	Write SQL query to divide the amount in stock of each item by 7 in store table and display the result round to the nearest integer.
+
