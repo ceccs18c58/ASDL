@@ -79,3 +79,18 @@ d.	Write an SQL query to display the reminder, if the amount of an each item in 
 e.	Write SQL query to display the amount in store and its square
 f.	Write SQL query to divide the amount in stock of each item by 7 in store table and display the result round to the nearest integer.
 
+
+#Task 8
+
+Expt8::Implementation of various aggregate functions in SQL
+Questions:
+
+1.Create a table Employee with following specifications.
+  Code, name, DOB, designation, salary
+2. Insert values into the table
+3. Display sum of salaries from the table employee where designation is clerk.
+4. Describe the maximum salary value from the table employee.
+5.Display average salary of employees
+6. Describe the minimum salary value from the table
+7. Display the total number of employees.
+
